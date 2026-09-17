@@ -1,0 +1,11 @@
+Key;Title;Description;CategoryGroupID
+E007022;Totaal;Totaal van de centrale en de decentrale opwekking van elektriciteit en warmte.;
+E007042;Centraal;"De productie van elektriciteit door thermische of nucleaire centrales die regulier leveren aan het landelijke hoogspanningsnet van Tennet. Dit worden ook wel de elektriciteitscentrales genoemd. 
+
+In Nederland bestaat het hoogspanningsnet uit de netten met een spanning van 110 kV en hoger.
+Thermische centrales wekken elektriciteit op door het verhitten van brandstoffen als aardgas, steenkool en biomassa.
+Nucleaire centrales (kerncentrales) wekken elektriciteit op met de warmte die vrijkomt bij splitsing van atoomkernen in een kernreactor.";
+E007043;Decentraal;"De productie van elektriciteit door thermische installaties die leveren aan een bedrijfsnetwerk of aan het openbare midden- of laagspanningsnet, plus alle productie van elektriciteit uit windenergie, waterkracht en zonne-energie. 
+
+Het openbare midden- of laagspanningsnet bestaat uit de netten met een spanning lager dan 110 kV.
+Thermische installaties wekken elektriciteit op door het verhitten van brandstoffen als aardgas, steenkool en biomassa.";

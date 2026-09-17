@@ -1,0 +1,30 @@
+Key;Title;Description;CategoryGroupID
+T001027;Totaal;Totaal van niet-hernieuwbare brandstoffen, hernieuwbare energie en overige energiedragers.;1
+E006620;Totaal niet-hernieuwbare brandstoffen;Totaal van aardgas, steenkool en overige niet-hernieuwbare brandstoffen (overige fossiele brandstoffen en het niet-biogene deel van huishoudelijk en industrieel afval).;2
+E006461;Steenkool;"Fossiele brandstof die bestaat uit verkoolde plantenresten. 
+
+Soorten steenkool zijn antraciet, cokeskool en ketelkool. Al deze soorten hebben een netto verbrandingswaarde groter dan 24 megajoule per kilogram van het asvrije en natte product. 1 TJ komt overeen met ongeveer 40 000 kg kolen.
+
+Ketelkool wordt door kolencentrales ingezet bij de elektriciteitsproductie.";2
+E006560;Aardgas;Gas van natuurlijke oorsprong dat vooral bestaat uit methaan. Het ontstaat bij hetzelfde proces dat tot de vorming van aardolie leidt. Voor vervoer over lange afstanden per schip wordt aardgas vloeibaar gemaakt. 1 TJ komt overeen met ongeveer 31 600 m3 aardgas.;2
+E007260;Overige niet-hernieuwbare brandstoffen;"Hieronder vallen overige fossiele brandstoffen en het niet-biogene deel van huishoudelijk en industrieel afval.
+Overige fossiele brandstoffen zijn aardolieproducten (zoals stookolie en diesel), raffinaderijgassen, cokesovengas, hoogovengas en chemische restgassen. Raffinaderijgassen en chemische restgassen zijn restgassen die als bijproduct ontstaan bij de verwerking van aardolie in de raffinaderijen en de petrochemische industrie. Cokesovengas komt vrij bij de verkoling van steenkool tot steenkoolcokes. Hoogovengas komt vrij bij de productie van ijzer in hoogovens.";2
+E006565;Totaal hernieuwbare energie;Totaal van zonnestroom, windenergie, waterkracht en biomassa.;3
+E006566;Biomassa;"Plantaardig of dierlijk materiaal van recente oorsprong ingezet voor productie van energie.
+
+Voorbeelden zijn hout, mest en afval uit de voedselverwerkende industrie.";3
+E006587;Waterkracht;Energie, opgewekt met behulp van vallend of stromend water.;3
+E006589;Zonne-energie;"Zonnestraling omgezet in elektriciteit.
+
+Ook bekend als fotovoltaïsch opgewekte zonne-energie.";3
+E006588;Windenergie;"Elektriciteit, opgewekt met een windmolen of windturbine. 
+
+Windmolens staan op land of in binnenwateren of op zee. Windmolens in binnenwateren worden gerekend bij windenergie op land.";3
+E006622;Totaal overige energiedragers;Elektriciteit en/of warmte verkregen uit kernenergie, batterijen, stoom en gasexpansieturbines (waarin gassen onder hoge druk uitzetten, waardoor de turbine elektriciteit produceert).;4
+E006602;Kernenergie;"Energie die vrijkomt bij splitsing of fusie van atoomkernen. 
+
+Door verhitting van water wordt deze energie omgezet in stoom onder hoge druk. Vervolgens kan met deze stoom elektriciteit worden opgewekt met behulp van een stoomturbine.";4
+E006607;Elektriciteit (batterijen);"De inzet en bruto productie van elektriciteit van batterijen met een opslagcapaciteit van 1 MWh en hoger. 
+De inzet is de elektriciteit gebruikt voor het opladen van de batterij, gemeten op DC (gelijkstroom)  niveau van de batterij. Het kan gaan om elektriciteit uit het openbare net, maar ook om elektriciteit direct van een productie-installatie zoals een elektriciteitscentrale, zonne- of windpark.
+De bruto productie is de hoeveelheid ontladen elektriciteit (op DC niveau) inclusief het eigenverbruik en verliezen.";4
+E007262;Stoom- en gasexpansie-energie;Elektriciteit opgewekt in expansieturbines door stoom en expansiegassen onder hoge druk.;4

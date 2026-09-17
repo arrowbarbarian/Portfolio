@@ -1,0 +1,105 @@
+Key;Title;Description;CategoryGroupID
+T001176;Totaal Stationaire en mobiele bronnen;"Stationaire bronnen zijn niet mobiele bronnen zoals de inzet van energiedragers in ovens, kachels en ketels, industriële processen en bijvoorbeeld emissies uit stortplaatsen en activiteiten in de land en tuinbouw. 
+Mobiele bronnen zijn transportmiddelen en mobiele werktuigen met een verbrandingsmotor, inclusief buitenlandse transportmiddelen en scheepvaart op het Nederlands deel van het (Europees) Continentaal Plat (NCP).";
+A025447;"Stationaire bronnen; totaal";Stationaire bronnen zijn niet mobiele bronnen zoals de inzet van energiedragers in ovens, kachels en ketels, industriële processen en bijvoorbeeld emissies uit stortplaatsen en activiteiten in de land en tuinbouw.;1
+800044;Energiesector;"Deze categorie is een samentelling van categorieën:
+06 Winning van aardolie en aardgas
+192 Aardolie-industrie
+35 Energiebedrijven";2
+305800;06 Winning van aardolie en aardgas;Winning van aardolie en aardgas;2
+320300;192 Aardolie-industrie;"Aardolie-industrie
+Deze groep omvat:
+Aardolieraffinage:
+- vervaardiging van motorbrandstoffen: benzine, kerosine, enz.;
+- productie van overige brandstoffen: lichte en zware stookolie, raffinaderijgassen als ethaan, propaan, butaan, enz.;
+- vervaardiging van producten voor de petrochemische industrie en voor de vervaardiging van wegdekken;
+- vervaardiging van overige aardolieproducten: white spirit, vaseline, paraffine, enz.
+Aardolieverwerking (geen -raffinage):
+- vervaardiging van smeeroliën en vetten uit aardolie;
+- recycling van afgewerkte olie;
+- vervaardiging van aardolieproducten uit afvalolie.";2
+346700;35 Energiebedrijven;Productie en distributie van en handel in elektriciteit, aardgas, stoom en gekoelde lucht;2
+800045;Nijverheid (geen energiesector);"Deze categorie is een samentelling van categorieën:
+B Winning van delfstoffen (geen 06 Winning van aardolie en aardgas)
+C Industrie (geen 192 Aardolie-industrie)
+F Bouwnijverheid";3
+307610;10-12 Voedings-, genotmiddelenindustrie;"""Vervaardiging van voedingsmiddelen, dranken en tabaksproducten 
+Deze categorie is een samentelling van categorieën: 
+10 Vervaardiging van voedingsmiddelen 
+11 Vervaardiging van dranken 
+12 Vervaardiging van tabaksproducten""";3
+312505;13-15 Textiel-, kleding-, lederindustrie;"""Vervaardiging van textiel, kleding en lederwaren 
+Deze categorie is een samentelling van categorieën: 
+13 Vervaardiging van textiel 
+14 Vervaardiging van kleding 
+15 Vervaardiging van leer, lederwaren en schoenen""";3
+315800;16 Houtindustrie;Primaire houtbewerking en vervaardiging van artikelen van hout, kurk, riet en vlechtwerk (geen meubels);3
+317100;17 Papierindustrie;Vervaardiging van papier, karton en papier- en kartonwaren;3
+318600;18 Grafische industrie;Drukkerijen, reproductie van opgenomen media;3
+320800;201 Basischemie;Vervaardiging van basischemicaliën, kunstmeststoffen en stikstofverbindingen en van kunststof en synthetische rubber in primaire vorm;3
+800046;Overige chemie, farmaceutische industrie;"Deze categorie is een samentelling van categorieën:
+202 Landbouwchemicaliënindustrie
+203 Verf-, vernis- en drukinktindustrie
+204 Wasmiddel- en cosmeticaindustrie
+205 Overige chemische productenindustrie
+206 Synthetische vezelindustrie
+21 Farmaceutische industrie";3
+324600;23 Bouwmaterialenindustrie;"""Vervaardiging van overige niet-metaalhoudende minerale producten 
+Deze afdeling omvat: vervaardiging van glas, keramische producten, cement, kalk en gips, producten van beton, gips en cement, en natuursteenbewerking""";3
+328100;24 Basismetaalindustrie;Vervaardiging van metalen in primaire vorm.;3
+800049;Metaalproducten- en machine-industrie;"Deze categorie is een samentelling van categorieën:
+25 Vervaardiging van producten van metaal (geen machines en apparaten)
+26 Vervaardiging van computers en van elektronische en optische apparatuur
+27 Vervaardiging van elektrische apparatuur
+28 Vervaardiging van overige machines en apparaten";3
+339205;29-30 Transportmiddelenindustrie;Vervaardiging van transportmiddelen Deze categorie is een samentelling van categorieën: 29 Vervaardiging van auto's, aanhangwagens en opleggers 30 Vervaardiging van overige transportmiddelen;3
+800050;22, 31-32 Overige industrie;"Deze categorie is een samentelling van categorieën: 
+22 Rubber- en kunststofproductenindustrie 
+31 Vervaardiging van meubels 
+32 Vervaardiging van overige goederen";3
+350000;F Bouwnijverheid;"F Bouwnijverheid
+41 Algemene burgerlijke en utiliteitsbouw en projectontwikkeling
+42 Grond-, water- en wegenbouw (geen grondverzet)
+43 Gespecialiseerde werkzaamheden in de bouw";3
+1050010;Particulier huishouden;Eén of meer personen die samen een woonruimte bewonen en zichzelf, dus niet-bedrijfsmatig, voorzien in de dagelijkse levensbehoeften. Dit betreft de SBI-sectie T.;4
+800051;A,E,G-S, U Overige sectoren;"Deze categorie is een samentelling van categorieën:
+A Landbouw, bosbouw en visserij
+E Waterbedrijven en afvalbeheer
+G-U Dienstverlening";5
+301100;01 Landbouw (stationaire bronnen);Landbouw, jacht en dienstverlening voor de landbouw en jacht, exclusief de inzet van mobiele werktuigen.;5
+348000;E Waterbedrijven en afvalbeheer;"Winning en distributie van water; afval- en afvalwaterbeheer en sanering
+Deze categorie is een samentelling van:
+36 Winning en distributie van water
+37 Afvalwaterinzameling en -behandeling
+38 Afvalinzameling en –behandeling; voorbereiding tot recycling
+39 Sanering en overig afvalbeheer";5
+300008;G-U Dienstverlening;"Deze categorie is een samentelling van SBI-secties:  G Groot- en detailhandel; reparatie van auto's; H Vervoer en opslag; I Logies-, maaltijd- en drankverstrekking;J Informatie en communicatie; K Financiële instellingen ; L Verhuur van en handel in onroerend goed; M Advisering, onderzoek en overige specialistische zakelijke dienstverlening; N Verhuur van roerende goederen en overige zakelijke dienstverlening; O Openbaar bestuur, overheidsdiensten en verplichte sociale verzekeringen; P Onderwijs; Q Gezondheids- en welzijnszorg; R Cultuur, sport en recreatie; S Overige dienstverlening; U Extraterritoriale organisaties en lichamen.";5
+A025421;"Mobiele bronnen; totaal";Mobiele bronnen zijn transportmiddelen en mobiele werktuigen met een verbrandingsmotor, inclusief buitenlandse transportmiddelen en scheepvaart op het Nederlands deel van het (Europees) Continentaal Plat (NCP).;7
+A025422;Vervoer;"Alle vervoer van personen en goederen over rail, weg, water en door de lucht, exclusief internationale binnenvaart en vervoer op het eigen bedrijfsterrein.
+De categorie Scheepvaart betreft bij de IPCC-en NEC-emissies alleen de Binnenscheepvaart en niet de Zeescheepvaart; bij de feitelijke emissies is de Zeescheepvaart (binnengaats en op NCP) wel opgenomen onder de categorie Zeevaart.
+De categorie Luchtvaart omvat bij de IPCC alleen de emissies door binnenlandse vluchten; bij de NEC- en feitelijke emissies betreft dit de binnenlandse vluchten, en de emissies bij het taxiën, landen en stijgen tot 3000 voet vanaf Nederlands grondgebied van internationale vluchten.";8
+A025424;"Wegverkeer; totaal";"Alle vervoer van personen en goederen via de openbare weg. Vervoer op het eigen bedrijfsterrein valt hier niet onder. Gedetailleerde emissiecijfers zijn te vinden in de Statlinetabel ""Emissies naar lucht; wegverkeer"".";8
+A048112;"Wegverkeer; personenauto's";Verkeer binnen Nederland, inclusief buitenlandse voertuigen.;8
+A052486;"Wegverkeer; motorfietsen";Motorvoertuigen voor het wegverkeer op twee, drie of vier wielen met een onbeladen gewicht van maximaal 400 kg.;8
+A052487;"Wegverkeer; lichte bedrijfsvoertuigen";Lichte motorvoertuigen ingericht voor het vervoer van goederen, voor het uitvoeren van bijzondere doeleinden. Hieronder vallen de bestelauto's en de lichte speciale voertuigen.;8
+A052488;"Wegverkeer; zware bedrijfsvoertuigen";Zware motorvoertuigen ingericht voor het vervoer van goederen, voor het uitvoeren van bijzondere doeleinden of voor het trekken van opleggers. Hieronder vallen de vrachtauto's (excl. trekker voor oplegger), trekkers voor oplegger en de zware speciale voertuigen.;8
+A052489;"Wegverkeer; bussen";Motorvoertuigen voor personenvervoer over de weg met meer dan negen zitplaatsen (met inbegrip van de bestuurdersplaats).;8
+A025423;"Railverkeer; totaal";Alle vervoer van personen en goederen via railverbindingen, zoals trein, tram en metro. Vervoer op het eigen bedrijfsterrein valt hier niet onder. Betreft de dieseltractie en de slijtage van bovenleidingen en stroomafnemers (fijn stof) bij de elektrische tractie, inclusief trolleybussen. Dus niet de emissies ten gevolge van de opwekking van elektriciteit.;8
+A025426;"Binnenvaart; totaal";"Alle vervoer van personen en goederen via binnenlandse waterwegen, inclusief recreatievaart, exclusief internationale binnenvaart. Visserij valt hier niet onder.
+De categorie Scheepvaart betreft bij de IPCC-en NEC-emissies alleen de Binnenvaart en niet de Zeescheepvaart; bij de feitelijke emissies is de Zeescheepvaart (binnengaats en op NCP) wel opgenomen. Binnenscheepvaart omvat bij de IPCC alleen de emissies door schepen met een Nederlandse bestemming; bij de NEC- en feitelijke emissies betreft dit de emissies op Nederlands grondgebied met Nederlandse of buitenlandse bestemming.";8
+A048114;"Binnenvaart; personenvervoer";Passagiersvaart binnen Nederland, inclusief buitenlandse vaartuigen.;8
+A048115;"Binnenvaart; vrachtvervoer";Vrachtvaart binnen Nederland, inclusief buitenlandse vaartuigen. Emissies zijn inclusief de verdamping van ladingresten (VOS).;8
+A048116;"Binnenvaart; recreatievaartuigen";Recreatievaart binnen Nederland, inclusief buitenlandse vaartuigen.;8
+A025427;Zeevaart;Stilliggende zeeschepen in havens en varende en manoeuvrerende zeeschepen op Nederlands grondgebied en het Nederlands deel van het continentaal plat (NCP). Het (Europees) Continentaal Plat bestaat uit het gebied dat zich bevindt tussen de laagwaterlijn en een waterdiepte van 200 meter, maar maximaal 200 mijl uit de kust. Tussen 1960 en 1975 hebben de Noordzeestaten verdragen gesloten om de landsgrenzen op het Continentaal Plat vast te leggen.;8
+A048117;"Zeevaart; binnengaats";Stilliggende zeeschepen in havens en varende en manoeuvrerende zeeschepen op Nederlands grondgebied.;8
+A048118;"Zeevaart; Nederlands Continentaal Plat";Het (Europees)Continentaal Plat bestaat uit het gebied dat zich bevindt tussen de laagwaterlijn en een waterdiepte van 200 meter, maar maximaal 200 mijl uit de kust. Tussen 1960 en 1975 hebben de Noordzeestaten verdragen gesloten om de landsgrenzen op het Continentaal Plat vast te leggen.;8
+A025428;Luchtvaart;"Vervoer van personen en goederen via de lucht. Emissies door het verbranden en verdampen van vliegtuigbrandstoffen tijdens binnenlandse vluchten, en de emissies bij het taxiën, landen en stijgen tot 3000 voet vanaf Nederlands grondgebied van internationale vluchten.
+De categorie Luchtvaart omvat bij de IPCC alleen de emissies door binnenlandse vluchten; bij de NEC- en feitelijke emissies betreft dit de binnenlandse vluchten én de emissies bij het taxiën, landen en stijgen tot 3000 voet vanaf Nederlands grondgebied van internationale vluchten.";8
+A025429;"Overige mobiele bronnen; totaal";"Visserij (vissersschepen) en werktuigen met een verbrandingsmotor; hieronder vallen bijvoorbeeld landbouwtrekkers, vorkheftrucks, kranen en bouwmachines.";9
+A048119;"Mobiele werktuigen; totaal";Werktuigen met een verbrandingsmotor. Hieronder vallen bijvoorbeeld landbouwtrekkers, vorkheftrucks en (wegen)bouwmachines;9
+A025430;"Mobiele werktuigen; landbouw";Werktuigen met een verbrandingsmotor in de landbouw, zoals landbouwtrekkers en laadschoppen..;9
+A048120;"Mobiele werktuigen; bouwnijverheid";Werktuigen met een verbrandingsmotor in de bouwnijverheid, zoals laadschoppen, graafmachines en generatoren.;9
+A052490;"Mobiele werktuigen; industrie";Werktuigen met een verbrandingsmotor in de industrie, zoals verreikers en generatoren.;9
+A052491;"Mobiele werktuigen; diensten";Werktuigen met een verbrandingsmotor in de dienstensector, zoals vorkheftrucks.;9
+A025433;"Mobiele werktuigen; overige sectoren";Werktuigen met een verbrandingsmotoren voor o.a. consumenten , zoals grasmaaiers en bladblazers.;9
+A025431;Visserij;Omvat binnenvisserij, kustvisserij en visserij op het Nederlands deel van het Continentaal Plat (zie Zeevaart).;9

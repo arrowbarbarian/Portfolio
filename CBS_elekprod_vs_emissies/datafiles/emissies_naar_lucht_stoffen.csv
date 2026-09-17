@@ -1,0 +1,16 @@
+Key;Title;Description;CategoryGroupID
+A044109;Kooldioxide (CO2);"CO2 ontstaat vooral bij verbranding van de koolstof in brandstoffen. 
+Het is een broeikasgas (veroorzaakt opwarming van de aarde).";
+A044107;Methaan (CH4);"Methaan (= aardgas). CH4 ontstaat onder andere door onvolledige verbranding van brandstoffen, lekkage van het aardgasnet en door vergisting. 
+Methaan is een broeikasgas (veroorzaakt opwarming van de aarde).";
+A044110;Distikstofoxide (N20);Distikstofoxide (=lachgas). N2O ontstaat bij allerlei chemische omzettingsprocessen, zoals denitrificatieprocessen bij mest en kunstmest, bij de productie van salpeterzuur en in autokatalysatoren. Het is een broeikasgas (veroorzaakt opwarming van de aarde).;
+A044111;Ammoniak (NH3);"Ammoniak (NH3). NH3 ontstaat vooral bij natuurlijke processen, maar ook, in mindere mate, bij de verbranding van brandstoffen en bij industriële processen. 
+De belangrijkste bron is natuurlijke mest. NH3 veroorzaakt verzuring van het milieu.";
+A044112;Stikstofoxiden (NOx);Stikstofoxiden worden met name gevormd bij verbrandingsprocessen. Hierbij wordt stikstof uit de (verbrandings)lucht omgezet tot NOx. Stikstofoxiden veroorzaken verzuring en spelen een rol bij smogvorming. Stikstofdioxide (NO2) is schadelijk voor de gezondheid.;
+A044114;Zwaveldioxide (SO2);SO2 wordt gevormd door de verbranding van de in brandstoffen aanwezige zwavel. Het veroorzaakt verzuring van het milieu.;
+A044118;NMVOS;"Vluchtige organische stoffen, exclusief methaan.
+Vluchtige organische stoffen ontstaan onder andere door onvolledige verbranding van brandstoffen en door verdamping van brandstoffen, koelmiddelen en ander chemische stoffen. Daarnaast ontstaan VOS-emissies tijdens allerlei industriële processen.Vluchtige organische stoffen spelen een rol bij de vorming van smog en zijn soms kankerverwekkend.";
+A044113;PM10 (fijn stof);"Fijn Stof (deeltjes met doorsnede kleiner dan 10 micrometer). PM10 ontstaat onder andere bij de verbranding van dieselolie (""dieselrook), slijtage van banden en remmen, allerlei industriële processen en op- en overslag. Fijn stof is schadelijk voor de gezondheid. Het dringt diep door in de longen.";
+A051771;PM2.5 (fijn stof);"Fijn Stof (deeltjes met doorsnede kleiner dan 2,5 micrometer). PM2.5 ontstaat onder andere bij de verbranding van dieselolie (""dieselrook), slijtage van wegdek, banden en remmen, allerlei industriële processen en op- en overslag. Fijn stof is schadelijk voor de gezondheid. Het dringt diep door in de longen. PM2.5 betreft de uitstoot door verbranding plus de uitstoot door slijtage van wegdek, banden en remmen";
+A044108;Koolmonoxide (CO);"CO ontstaat vooral door onvolledige verbranding van brandstof. 
+Het is een giftig gas (schadelijk voor de gezondheid); in hoge concentraties dodelijk.";
