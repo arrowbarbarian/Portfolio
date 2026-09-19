@@ -1,0 +1,16 @@
+relationship 5f011bfb-9c60-0790-f71a-ea90cb82bcdc
+	fromColumn: elektriciteitsprod_naar_energiedrager_dataset.Perioden
+	toColumn: elektriciteitsprod_naar_energiedrager_perioden.Key
+
+relationship 77e48369-856e-b81a-e020-885d1efe1c27
+	fromColumn: elektriciteitsprod_naar_energiedrager_dataset.Energiedragers
+	toColumn: elektriciteitsprod_naar_energiedrager_dragers.Key
+
+relationship ea0114e1-a55e-b430-9929-21b70a91af1e
+	fromColumn: elektriciteitsprod_naar_energiedrager_dragers.CategoryGroupID
+	toColumn: elektriciteitsprod_naar_energiedrager_categorygroups.ID
+
+relationship fe6c4fc8-ccdc-a90b-744d-e8546a4cb84d
+	fromColumn: elektriciteitsprod_naar_energiedrager_dataset.CentraleDecentraleProductie
+	toColumn: elektriciteitsprod_naar_energiedrager_centdecent.Key
+

@@ -1,0 +1,50 @@
+table elektriciteitsprod_naar_energiedrager_centdecent
+	lineageTag: ae4d165a-ea6a-45b5-a42a-edc6f13fdc63
+
+	column Key
+		dataType: string
+		lineageTag: aa4e2155-d67f-4b30-93d7-62d60237d648
+		summarizeBy: none
+		sourceColumn: Key
+
+		annotation SummarizationSetBy = Automatic
+
+	column Title
+		dataType: string
+		lineageTag: e295abf7-fad4-462f-b265-eb6433423729
+		summarizeBy: none
+		sourceColumn: Title
+
+		annotation SummarizationSetBy = Automatic
+
+	column Description
+		dataType: string
+		lineageTag: 1cb48885-1425-4f7d-a723-41a2f1d7730d
+		summarizeBy: none
+		sourceColumn: Description
+
+		annotation SummarizationSetBy = Automatic
+
+	column CategoryGroupID
+		dataType: string
+		lineageTag: 7ab9d7d6-fb27-418c-a45f-ba5f975c79b7
+		summarizeBy: none
+		sourceColumn: CategoryGroupID
+
+		annotation SummarizationSetBy = Automatic
+
+	partition elektriciteitsprod_naar_energiedrager_centdecent = m
+		mode: import
+		source =
+				let
+				  Source = Csv.Document(File.Contents("X:\jupyter\Portfolio\CBS_elekprod_vs_emissies\datafiles\elektriciteitsprod_naar_energiedrager_centdecent.csv"), [Delimiter = ";", Columns = 4, QuoteStyle = QuoteStyle.Csv]),
+				  #"Changed column type" = Table.TransformColumnTypes(Source, {{"Column1", type text}, {"Column2", type text}, {"Column3", type text}, {"Column4", type text}}, "en-US"),
+				    #"Promoted Headers" = Table.PromoteHeaders(#"Changed column type", [PromoteAllScalars=true]),
+				    #"Changed Type" = Table.TransformColumnTypes(#"Promoted Headers",{{"Key", type text}, {"Title", type text}, {"Description", type text}, {"CategoryGroupID", type text}})
+				in
+				  #"Changed Type"
+
+	annotation PBI_ResultType = Table
+
+	annotation PBI_NavigationStepName = Navigation
+

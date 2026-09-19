@@ -1,0 +1,48 @@
+table elektriciteitsprod_naar_energiedrager_dragers
+	lineageTag: a9c3b784-6fd1-4743-b050-1ba0cfb5f3a2
+
+	column Key
+		dataType: string
+		lineageTag: 2b629406-9028-47bf-8975-3f2410286e0f
+		summarizeBy: none
+		sourceColumn: Key
+
+		annotation SummarizationSetBy = Automatic
+
+	column Title
+		dataType: string
+		lineageTag: c552964d-3599-4052-a2cb-e2bc04b260e9
+		summarizeBy: none
+		sourceColumn: Title
+
+		annotation SummarizationSetBy = Automatic
+
+	column Description
+		dataType: string
+		lineageTag: c719537a-5e37-41e9-b628-3385daf46108
+		summarizeBy: none
+		sourceColumn: Description
+
+		annotation SummarizationSetBy = Automatic
+
+	column CategoryGroupID
+		dataType: int64
+		formatString: 0
+		lineageTag: 104d7b94-1171-4691-bca0-7929e2a1892a
+		summarizeBy: none
+		sourceColumn: CategoryGroupID
+
+		annotation SummarizationSetBy = Automatic
+
+	partition elektriciteitsprod_naar_energiedrager_dragers = m
+		mode: import
+		source =
+				let
+				  Source = Csv.Document(File.Contents("X:\jupyter\Portfolio\CBS_elekprod_vs_emissies\datafiles\elektriciteitsprod_naar_energiedrager_dragers.csv"), [Delimiter = ";", Columns = 4, Encoding = 65001, QuoteStyle = QuoteStyle.Csv]),
+				  #"Promoted headers" = Table.PromoteHeaders(Source, [PromoteAllScalars = true]),
+				  #"Changed column type" = Table.TransformColumnTypes(#"Promoted headers", {{"Key", type text}, {"Title", type text}, {"Description", type text}, {"CategoryGroupID", Int64.Type}}, "en-US")
+				in
+				  #"Changed column type"
+
+	annotation PBI_ResultType = Table
+

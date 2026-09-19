@@ -1,0 +1,112 @@
+table elektriciteitsprod_naar_energiedrager_dataset
+	lineageTag: 3c26010c-4bd4-4226-9843-c675b6d5264d
+
+	column ID
+		dataType: int64
+		formatString: 0
+		lineageTag: f6c7120b-17bb-4ec7-8c83-804574e227c5
+		summarizeBy: count
+		sourceColumn: ID
+
+		annotation SummarizationSetBy = Automatic
+
+	column CentraleDecentraleProductie
+		dataType: string
+		lineageTag: d28596d5-3965-4b05-a780-9b9241b27f91
+		summarizeBy: none
+		sourceColumn: CentraleDecentraleProductie
+
+		annotation SummarizationSetBy = Automatic
+
+	column Energiedragers
+		dataType: string
+		lineageTag: 99b2c158-c478-4910-a095-37bad2776098
+		summarizeBy: none
+		sourceColumn: Energiedragers
+
+		annotation SummarizationSetBy = Automatic
+
+	column Perioden
+		dataType: string
+		lineageTag: 48042dd7-5f30-4dd1-9a35-271148fe8ea1
+		summarizeBy: none
+		sourceColumn: Perioden
+
+		annotation SummarizationSetBy = Automatic
+
+	column TotaalElektriciteitEnWarmteTJ_1
+		dataType: int64
+		formatString: 0
+		lineageTag: 0c4e8681-46fe-434a-9758-bf1724e89241
+		summarizeBy: sum
+		sourceColumn: TotaalElektriciteitEnWarmteTJ_1
+
+		annotation SummarizationSetBy = Automatic
+
+	column ElektriciteitGWh_2
+		dataType: int64
+		formatString: 0
+		lineageTag: 1708dadd-ed7d-4999-9ff4-42750bc5afb2
+		summarizeBy: sum
+		sourceColumn: ElektriciteitGWh_2
+
+		annotation SummarizationSetBy = Automatic
+
+	column ElektriciteitTJ_3
+		dataType: int64
+		formatString: 0
+		lineageTag: db5b249a-91cc-4451-b0af-fb4113cbf0ca
+		summarizeBy: sum
+		sourceColumn: ElektriciteitTJ_3
+
+		annotation SummarizationSetBy = Automatic
+
+	column Elektriciteit_4
+		dataType: double
+		lineageTag: 2fd21acf-7d78-4ba5-8f70-4b29413ab8d7
+		summarizeBy: sum
+		sourceColumn: Elektriciteit_4
+
+		annotation SummarizationSetBy = Automatic
+
+		annotation PBI_FormatHint = {"isGeneralNumber":true}
+
+	column WarmteTJ_5
+		dataType: int64
+		formatString: 0
+		lineageTag: 06f5d28a-1df8-4e2a-a431-0c858d878931
+		summarizeBy: sum
+		sourceColumn: WarmteTJ_5
+
+		annotation SummarizationSetBy = Automatic
+
+	column InzetTJ_6
+		dataType: int64
+		formatString: 0
+		lineageTag: 6389711f-97ec-490d-8f11-fa3a9833036c
+		summarizeBy: sum
+		sourceColumn: InzetTJ_6
+
+		annotation SummarizationSetBy = Automatic
+
+	column ElektrischVermogenMW_7
+		dataType: int64
+		formatString: 0
+		lineageTag: 2419f97e-9281-4f30-8ece-657189377800
+		summarizeBy: sum
+		sourceColumn: ElektrischVermogenMW_7
+
+		annotation SummarizationSetBy = Automatic
+
+	partition elektriciteitsprod_naar_energiedrager_dataset = m
+		mode: import
+		source =
+				let
+				  Source = Csv.Document(File.Contents("X:\jupyter\Portfolio\CBS_elekprod_vs_emissies\datafiles\elektriciteitsprod_naar_energiedrager_dataset.csv"), [Delimiter = ";", Columns = 11, QuoteStyle = QuoteStyle.None]),
+				  #"Promoted headers" = Table.PromoteHeaders(Source, [PromoteAllScalars = true]),
+				  #"Changed column type" = Table.TransformColumnTypes(#"Promoted headers", {{"ID", Int64.Type}, {"CentraleDecentraleProductie", type text}, {"Energiedragers", type text}, {"Perioden", type text}, {"TotaalElektriciteitEnWarmteTJ_1", Int64.Type}, {"ElektriciteitGWh_2", Int64.Type}, {"ElektriciteitTJ_3", Int64.Type}, {"Elektriciteit_4", type number}, {"WarmteTJ_5", Int64.Type}, {"InzetTJ_6", Int64.Type}, {"ElektrischVermogenMW_7", Int64.Type}}, "en-US")
+				in
+				  #"Changed column type"
+
+	annotation PBI_ResultType = Table
+

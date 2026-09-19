@@ -1,0 +1,87 @@
+{
+  "version": "1.1.0",
+  "diagrams": [
+    {
+      "ordinal": 0,
+      "scrollPosition": {
+        "x": 0,
+        "y": 0
+      },
+      "nodes": [
+        {
+          "location": {
+            "x": 766.879845072172,
+            "y": 253.38427629577592
+          },
+          "nodeIndex": "elektriciteitsprod_naar_energiedrager_dataset",
+          "nodeLineageTag": "3c26010c-4bd4-4226-9843-c675b6d5264d",
+          "size": {
+            "height": 300,
+            "width": 234
+          },
+          "zIndex": 4
+        },
+        {
+          "location": {
+            "x": 1068.8185548984218,
+            "y": 1009.7209757043555
+          },
+          "nodeIndex": "elektriciteitsprod_naar_energiedrager_categorygroups",
+          "nodeLineageTag": "2297a70d-e256-4eac-9d8b-1a328f45c6cc",
+          "size": {
+            "height": 200,
+            "width": 234
+          },
+          "zIndex": 5
+        },
+        {
+          "location": {
+            "x": 507.4568543364075,
+            "y": 27.243749711641385
+          },
+          "nodeIndex": "elektriciteitsprod_naar_energiedrager_centdecent",
+          "nodeLineageTag": "ae4d165a-ea6a-45b5-a42a-edc6f13fdc63",
+          "size": {
+            "height": 176,
+            "width": 234
+          },
+          "zIndex": 3
+        },
+        {
+          "location": {
+            "x": 766.79112832531439,
+            "y": 772.82137686514159
+          },
+          "nodeIndex": "elektriciteitsprod_naar_energiedrager_dragers",
+          "nodeLineageTag": "a9c3b784-6fd1-4743-b050-1ba0cfb5f3a2",
+          "size": {
+            "height": 176,
+            "width": 234
+          },
+          "zIndex": 1
+        },
+        {
+          "location": {
+            "x": 1074.3356849722668,
+            "y": 27.243749711641328
+          },
+          "nodeIndex": "elektriciteitsprod_naar_energiedrager_perioden",
+          "nodeLineageTag": "71f3bb2c-f1c3-4d24-952d-6b7b15418678",
+          "size": {
+            "height": 176,
+            "width": 234
+          },
+          "zIndex": 2
+        }
+      ],
+      "name": "All tables",
+      "zoomValue": 89.1925905205695,
+      "pinKeyFieldsToTop": false,
+      "showExtraHeaderInfo": false,
+      "hideKeyFieldsWhenCollapsed": false,
+      "tablesLocked": false
+    }
+  ],
+  "selectedDiagram": "All tables",
+  "defaultDiagram": "All tables"
+}

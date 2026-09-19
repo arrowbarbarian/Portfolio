@@ -1,0 +1,23 @@
+model Model
+	culture: en-US
+	defaultPowerBIDataSourceVersion: powerBI_V3
+	sourceQueryCulture: nl-NL
+	valueFilterBehavior: independent
+	dataAccessOptions
+		legacyRedirects
+		returnErrorValuesAsNull
+
+annotation __PBI_TimeIntelligenceEnabled = 1
+
+annotation PBI_QueryOrder = ["elektriciteitsprod_naar_energiedrager_dataset","elektriciteitsprod_naar_energiedrager_categorygroups","elektriciteitsprod_naar_energiedrager_centdecent","elektriciteitsprod_naar_energiedrager_dragers","elektriciteitsprod_naar_energiedrager_perioden"]
+
+annotation PBI_ProTooling = ["DevMode"]
+
+ref table elektriciteitsprod_naar_energiedrager_dataset
+ref table elektriciteitsprod_naar_energiedrager_categorygroups
+ref table elektriciteitsprod_naar_energiedrager_centdecent
+ref table elektriciteitsprod_naar_energiedrager_dragers
+ref table elektriciteitsprod_naar_energiedrager_perioden
+
+ref cultureInfo en-US
+

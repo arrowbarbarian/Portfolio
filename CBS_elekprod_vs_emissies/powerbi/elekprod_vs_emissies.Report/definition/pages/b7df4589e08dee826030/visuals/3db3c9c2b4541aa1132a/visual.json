@@ -1,0 +1,212 @@
+{
+  "$schema": "https://developer.microsoft.com/json-schemas/fabric/item/report/definition/visualContainer/2.12.0/schema.json",
+  "name": "3db3c9c2b4541aa1132a",
+  "position": {
+    "x": 10,
+    "y": 576,
+    "z": 1,
+    "height": 504,
+    "width": 1910,
+    "tabOrder": 1
+  },
+  "visual": {
+    "visualType": "stackedAreaChart",
+    "query": {
+      "queryState": {
+        "Category": {
+          "projections": [
+            {
+              "field": {
+                "Column": {
+                  "Expression": {
+                    "SourceRef": {
+                      "Entity": "elektriciteitsprod_naar_energiedrager_perioden"
+                    }
+                  },
+                  "Property": "Title"
+                }
+              },
+              "queryRef": "elektriciteitsprod_naar_energiedrager_perioden.Title",
+              "nativeQueryRef": "Title",
+              "active": true
+            }
+          ]
+        },
+        "Series": {
+          "projections": [
+            {
+              "field": {
+                "Column": {
+                  "Expression": {
+                    "SourceRef": {
+                      "Entity": "elektriciteitsprod_naar_energiedrager_categorygroups"
+                    }
+                  },
+                  "Property": "Title"
+                }
+              },
+              "queryRef": "elektriciteitsprod_naar_energiedrager_categorygroups.Title",
+              "nativeQueryRef": "Title1"
+            }
+          ]
+        },
+        "Y": {
+          "projections": [
+            {
+              "field": {
+                "Aggregation": {
+                  "Expression": {
+                    "Column": {
+                      "Expression": {
+                        "SourceRef": {
+                          "Entity": "elektriciteitsprod_naar_energiedrager_dataset"
+                        }
+                      },
+                      "Property": "Elektriciteit_4"
+                    }
+                  },
+                  "Function": 0
+                }
+              },
+              "queryRef": "Sum(elektriciteitsprod_naar_energiedrager_dataset.Elektriciteit_4)",
+              "nativeQueryRef": "Sum of Elektriciteit_4"
+            }
+          ]
+        }
+      },
+      "sortDefinition": {
+        "sort": [
+          {
+            "field": {
+              "Aggregation": {
+                "Expression": {
+                  "Column": {
+                    "Expression": {
+                      "SourceRef": {
+                        "Entity": "elektriciteitsprod_naar_energiedrager_dataset"
+                      }
+                    },
+                    "Property": "Elektriciteit_4"
+                  }
+                },
+                "Function": 0
+              }
+            },
+            "direction": "Descending"
+          }
+        ],
+        "isDefaultSort": true
+      }
+    },
+    "drillFilterOtherVisuals": true
+  },
+  "filterConfig": {
+    "filters": [
+      {
+        "name": "a8213b70c720e8294708",
+        "field": {
+          "Column": {
+            "Expression": {
+              "SourceRef": {
+                "Entity": "elektriciteitsprod_naar_energiedrager_categorygroups"
+              }
+            },
+            "Property": "Title"
+          }
+        },
+        "type": "Categorical",
+        "filter": {
+          "Version": 2,
+          "From": [
+            {
+              "Name": "e",
+              "Entity": "elektriciteitsprod_naar_energiedrager_categorygroups",
+              "Type": 0
+            }
+          ],
+          "Where": [
+            {
+              "Condition": {
+                "Not": {
+                  "Expression": {
+                    "In": {
+                      "Expressions": [
+                        {
+                          "Column": {
+                            "Expression": {
+                              "SourceRef": {
+                                "Source": "e"
+                              }
+                            },
+                            "Property": "Title"
+                          }
+                        }
+                      ],
+                      "Values": [
+                        [
+                          {
+                            "Literal": {
+                              "Value": "'Totaal'"
+                            }
+                          }
+                        ]
+                      ]
+                    }
+                  }
+                }
+              }
+            }
+          ]
+        },
+        "objects": {
+          "general": [
+            {
+              "properties": {
+                "isInvertedSelectionMode": {
+                  "expr": {
+                    "Literal": {
+                      "Value": "true"
+                    }
+                  }
+                }
+              }
+            }
+          ]
+        }
+      },
+      {
+        "name": "8579ff44b73695a02e01",
+        "field": {
+          "Column": {
+            "Expression": {
+              "SourceRef": {
+                "Entity": "elektriciteitsprod_naar_energiedrager_perioden"
+              }
+            },
+            "Property": "Title"
+          }
+        },
+        "type": "Advanced"
+      },
+      {
+        "name": "543c641538cd3c2c3206",
+        "field": {
+          "Aggregation": {
+            "Expression": {
+              "Column": {
+                "Expression": {
+                  "SourceRef": {
+                    "Entity": "elektriciteitsprod_naar_energiedrager_dataset"
+                  }
+                },
+                "Property": "Elektriciteit_4"
+              }
+            },
+            "Function": 0
+          }
+        },
+        "type": "Advanced"
+      }
+    ]
+  }
+}

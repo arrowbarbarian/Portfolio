@@ -1,0 +1,154 @@
+{
+  "$schema": "https://developer.microsoft.com/json-schemas/fabric/item/report/definition/visualContainer/2.12.0/schema.json",
+  "name": "5c25df7530ee36016b64",
+  "position": {
+    "x": 9.8159509202453989,
+    "y": 0,
+    "z": 0,
+    "height": 566.38036809815947,
+    "width": 1910.1840490797545,
+    "tabOrder": 0
+  },
+  "visual": {
+    "visualType": "lineChart",
+    "query": {
+      "queryState": {
+        "Category": {
+          "projections": [
+            {
+              "field": {
+                "Column": {
+                  "Expression": {
+                    "SourceRef": {
+                      "Entity": "elektriciteitsprod_naar_energiedrager_perioden"
+                    }
+                  },
+                  "Property": "Title"
+                }
+              },
+              "queryRef": "elektriciteitsprod_naar_energiedrager_perioden.Title",
+              "nativeQueryRef": "Title",
+              "active": true
+            }
+          ]
+        },
+        "Series": {
+          "projections": [
+            {
+              "field": {
+                "Column": {
+                  "Expression": {
+                    "SourceRef": {
+                      "Entity": "elektriciteitsprod_naar_energiedrager_dragers"
+                    }
+                  },
+                  "Property": "Title"
+                }
+              },
+              "queryRef": "elektriciteitsprod_naar_energiedrager_dragers.Title",
+              "nativeQueryRef": "Title1"
+            }
+          ]
+        },
+        "Y": {
+          "projections": [
+            {
+              "field": {
+                "Aggregation": {
+                  "Expression": {
+                    "Column": {
+                      "Expression": {
+                        "SourceRef": {
+                          "Entity": "elektriciteitsprod_naar_energiedrager_dataset"
+                        }
+                      },
+                      "Property": "ElektriciteitGWh_2"
+                    }
+                  },
+                  "Function": 0
+                }
+              },
+              "queryRef": "Sum(elektriciteitsprod_naar_energiedrager_dataset.ElektriciteitGWh_2)",
+              "nativeQueryRef": "Sum of ElektriciteitGWh_2"
+            }
+          ]
+        }
+      },
+      "sortDefinition": {
+        "sort": [
+          {
+            "field": {
+              "Aggregation": {
+                "Expression": {
+                  "Column": {
+                    "Expression": {
+                      "SourceRef": {
+                        "Entity": "elektriciteitsprod_naar_energiedrager_dataset"
+                      }
+                    },
+                    "Property": "ElektriciteitGWh_2"
+                  }
+                },
+                "Function": 0
+              }
+            },
+            "direction": "Descending"
+          }
+        ],
+        "isDefaultSort": true
+      }
+    },
+    "drillFilterOtherVisuals": true
+  },
+  "filterConfig": {
+    "filters": [
+      {
+        "name": "44e458ed6091a6b4d75b",
+        "field": {
+          "Aggregation": {
+            "Expression": {
+              "Column": {
+                "Expression": {
+                  "SourceRef": {
+                    "Entity": "elektriciteitsprod_naar_energiedrager_dataset"
+                  }
+                },
+                "Property": "ElektriciteitGWh_2"
+              }
+            },
+            "Function": 0
+          }
+        },
+        "type": "Advanced"
+      },
+      {
+        "name": "f2d9770a35bb3515ed52",
+        "field": {
+          "Column": {
+            "Expression": {
+              "SourceRef": {
+                "Entity": "elektriciteitsprod_naar_energiedrager_perioden"
+              }
+            },
+            "Property": "Title"
+          }
+        },
+        "type": "Advanced"
+      },
+      {
+        "name": "00f4d02c38e90bd49bdd",
+        "field": {
+          "Column": {
+            "Expression": {
+              "SourceRef": {
+                "Entity": "elektriciteitsprod_naar_energiedrager_dragers"
+              }
+            },
+            "Property": "Title"
+          }
+        },
+        "type": "Categorical"
+      }
+    ]
+  }
+}
